@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+node_modules/
+__pycache__/
+*.log
+
+# Private runtime data
+.env
+.env.*
+env.*
+logs/
+**/logs/
+generated_images/
+
+# Optional original PNG outputs are large; keep them local unless publishing via Git LFS or releases.
+data/*/images/*.png
+!data/*/images/.gitkeep
